@@ -1,0 +1,22 @@
+/**
+ * 
+ */
+package com.vks.sb.app.config;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.servlet.ModelAndView;
+
+/**
+ * @author vivek
+ *
+ */
+@Controller
+public class AppLaunchController {
+
+	public ModelAndView homePage(final ModelAndView mav) {
+		
+		mav.setViewName("index");
+
+		return mav;
+	}
+}

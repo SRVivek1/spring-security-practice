@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.vks.sb.app.controller;
+
+/**
+ * @author vivek
+ *
+ */
+public class GreetingRestController {
+
+}

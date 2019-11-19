@@ -1,0 +1,3 @@
+#LDAP Server embedded port
+spring.ldap.embedded.port=8389
+

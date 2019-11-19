@@ -1,0 +1,19 @@
+/**
+ * 
+ */
+package com.vks.sb.app.config;
+
+import org.springframework.stereotype.Controller;
+
+/**
+ * @author vivek
+ *
+ */
+@Controller
+public class AppLaunchController {
+
+	public  void homePage() {
+		// TODO Auto-generated method stub
+
+	}
+}

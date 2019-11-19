@@ -1,0 +1,25 @@
+/**
+ * 
+ */
+package com.vks.sb.app.config;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.servlet.ModelAndView;
+
+/**
+ * @author vivek
+ *
+ */
+@RestController
+public class AppLaunchController {
+
+	@RequestMapping(value="/hello")
+	public ModelAndView homePage(final ModelAndView mav) {
+		
+		System.out.println("***********Hello");
+		mav.addObject("welcome.message", "Hello Mr. X");
+		mav.addObject("Hello Mr. X");
+		return mav;
+	}
+}
