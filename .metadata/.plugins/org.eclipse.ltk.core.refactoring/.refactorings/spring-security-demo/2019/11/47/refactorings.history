@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Move element &apos;WEB-INF&apos; to &apos;spring-security-demo/src/main/webapp&apos;&#x0D;&#x0A;- Original project: &apos;spring-security-demo&apos;&#x0D;&#x0A;- Destination element: &apos;spring-security-demo/src/main/webapp&apos;&#x0D;&#x0A;- Original element: &apos;WEB-INF&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move folder" destination="/src\/main\/webapp" element1="src/main/resources/WEB-INF" files="0" flags="589830" folders="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.moveResources" qualified="false" references="true" stamp="1574151797375" units="0" version="1.0"/>
-</session>
